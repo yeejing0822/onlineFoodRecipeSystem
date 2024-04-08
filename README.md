@@ -1,62 +1,72 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+Introduction
+ The Online Food Recipe System is a web application that allows users to share their food
+ recipes with the public no copyright restriction. This is a free copyright framework that
+ allows users to upload and manage their own food recipes, while the admin could apply the
+ create, read, update, and delete (CRUD) features to manage the entire online food recipe
+ system.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Gates
+The gate is proposed as a way to specify whether a role has been granted access to a webpage.
+ The gate is presented in this section as part of the boot() function of the
+ app\Providers\AuthServiceProvider.php.
 
-## About Laravel
+ Sample Outputs
+ Guest: Home page with drop down menu
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+ ![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/25ffaee2-1809-4a8c-8ffc-8c3b02061471)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+ Login page
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+ ![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/dcca1b4d-80c5-45ee-9f8f-7bc97cb8e812)
 
-## Learning Laravel
+ Register page
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/c071aa70-bd89-4520-b674-7887f71c5385)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+ Admin: Home page after login with drop down menu
 
-## Laravel Sponsors
+ ![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/68ad98a0-5800-4e73-bfaf-d5710f83298c)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+ Admin: Delete recipe from drop down menu
 
-### Premium Partners
+![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/e3d48f47-5bf5-42ec-8e76-d383be90fa20)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/)**
-- **[OP.GG](https://op.gg)**
+ Admin: Delete comment
 
-## Contributing
+ ![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/5d204ad1-db6b-4f66-ac7c-3c3a8608caba)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Admin: Logout
 
-## Code of Conduct
+![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/9822a541-dd15-493b-acb3-316908345bb7)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Admin, User & Guest : View Recipe
 
-## Security Vulnerabilities
+ ![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/c9c6fcb0-1420-4600-9a69-4378a86a2863)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+User: Home page after login with drop down menu
 
-## License
+![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/2aa68e49-c8ef-4063-9dee-796d195fb862)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+User: Logout
+
+![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/083d4cf9-c027-4cc5-a13b-bbb77ce1aeaa)
+
+Admin &User: Rating (Star Rating Scale)
+
+![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/bc064618-b3af-4998-92b8-6b729de7a190)
+
+Admin &User: Comment
+
+![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/4106fa64-a3d4-49a7-bc6b-176e3ba095c1)
+
+Admin &User: Add new food recipe
+
+![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/ff4002c6-8028-4190-b438-dda7f33a5d17)
+
+Admin &User: Edit Own Food Recipe
+
+![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/dabb7508-c5bb-4421-ab2e-c5418f7cfdbe)
+
+Admin &User: Remove Own Food Recipe
+
+![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/a3336fb6-5e89-486c-baf8-6d267f6c2259)
