@@ -11,6 +11,7 @@ The gate is proposed as a way to specify whether a role has been granted access 
  app\Providers\AuthServiceProvider.php.
 
  Sample Outputs
+ 
  Guest: Home page with drop down menu
 
  ![image](https://github.com/yeejing0822/onlineFoodRecipeSystem/assets/86753374/25ffaee2-1809-4a8c-8ffc-8c3b02061471)
